@@ -19,7 +19,7 @@ class MyHttpRequestHandler(http.server.SimpleHTTPRequestHandler):
             self.wfile.write(bytes(message, "utf8"))
         return
 
-PORT = 8000
+PORT = 3000
 
 Handler = MyHttpRequestHandler
 

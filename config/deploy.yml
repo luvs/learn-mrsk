@@ -3,7 +3,7 @@ service: learn-mrsk
 image: luvs/learn-mrsk/test
 servers:
   web:
-    hosts: 
+    hosts:
       - 65.21.62.243
     labels:
       traefik.http.routers.web.rule: Host(`mrsk.funtesting.dev`)
