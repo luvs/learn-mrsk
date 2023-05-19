@@ -5,6 +5,7 @@ servers:
   web:
     hosts:
       - 65.21.62.243
+      - 135.181.83.48
     labels:
       traefik.http.routers.web.rule: Host(`mrsk.funtesting.dev`)
       traefik.http.routers.web_secure.entrypoints: websecure
